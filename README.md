@@ -30,4 +30,4 @@ For development and testing purposes, just install the requirements into your Py
 python prepare/cli.py example.h5ad
 ```
 
-To simulate launching the CLI
+to simulate launching the CLI
