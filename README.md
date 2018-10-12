@@ -1,6 +1,6 @@
 # cellxgene-prepare
 
-cli for preprocessing data for use with `cellxgene`
+CLI for preprocessing data for use with `cellxgene`
 
 *under active development*
 
@@ -21,3 +21,13 @@ cellxgene-prepare data.h5ad --engine=scanpy --overwrite
 ```
 
 Will overwrite the original file, which can be useful when these files are large.
+
+## development
+
+For development and testing purposes, just install the requirements into your Python environment, and call
+
+```
+python prepare/cli.py example.h5ad
+```
+
+To simulate launching the CLI
