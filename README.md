@@ -6,21 +6,19 @@ CLI for preprocessing data for use with `cellxgene`
 
 ## usage
 
-Prepare a dataset by calling
+Prepare a dataset `example.h5ad` by calling
 
 ```
-cellxgene-prepare example.h5ad --engine=scanpy
+cellxgene-prepare example.h5ad --engine=scanpy --output=example_processed.h5ad
 ```
 
-This will save a new file `example-processed.h5ad` with a few new fields prepared designed for use with the specified engine.
+This will save a new file `example_processed.h5ad` with a few new fields prepared designed for use with the specified engine.
 
-Alternatively, calling
+Several options are available for specifying preprocessing, generating and saving plots, ensuring data sparsity, and others. To see all options, type
 
 ```
-cellxgene-prepare example.h5ad --engine=scanpy --overwrite
+cellxgene --help
 ```
-
-Will overwrite the original file `example.h5ad`, which can be useful when these files are large.
 
 ## development
 
