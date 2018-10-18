@@ -34,6 +34,10 @@ def cli(dataset, engine, format, layout, recipe, output, sparse, plotting):
         adata = sc.read_h5ad(dataset)
     if format == '10x_mtx':
         adata = sc.read_10x_mtx(dataset)
+    if format == 'loom' and sparse:
+        adata = sc.read_loom(dataset, sparse=True)
+    if format == 'loom' and not sparse:
+        adata = sc.read_loom(dataset, sparse=False)
 
     adata.var_names_make_unique()
 
