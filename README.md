@@ -1,8 +1,8 @@
+*this repository is archived as this functionality is now in [cellxgene](https://github.com/chanzuckerberg/cellxgene)*
+
 # cellxgene-prepare
 
 CLI for preprocessing data for use with `cellxgene`
-
-*archived as this functionality is now in [cellxgene](https://github.com/chanzuckerberg/cellxgene)*
 
 ## usage
 
