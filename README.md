@@ -2,7 +2,7 @@
 
 CLI for preprocessing data for use with `cellxgene`
 
-*under active development*
+*archived as this functionality is now in [cellxgene](https://github.com/chanzuckerberg/cellxgene)*
 
 ## usage
 
